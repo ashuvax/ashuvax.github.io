@@ -1,0 +1,4 @@
+npm install gh-pages --save-dev
+"homepage": "http://ashuvax.github.io/react-git"
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
