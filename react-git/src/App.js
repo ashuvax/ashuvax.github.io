@@ -1,7 +1,12 @@
 import "./App.css";
-
+import Login from "../src/pages/login";
 function App() {
-  return <div className="App">ככעכעכ</div>;
+
+  return (
+    <div className="container">
+      <Login />
+    </div>
+  );
 }
 
 export default App;
